@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"\Server=MUSTAFA-A;Database=Northwind;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Data Source=MUSTAFA-A; Initial Catalog=Northwind; User ID=sa;Password=123;integrated security=true;");
         }
 
         public DbSet<Product> Products { get; set; }
