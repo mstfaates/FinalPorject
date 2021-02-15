@@ -15,10 +15,10 @@ namespace Business.Concrete
         {
             _categoryDal = categoryDal;
         }
-        public List<Category> GetAlls()
+        public List<Category> GetAll()
         {
             //İş kodları
-            return _categoryDal.GetAlls();
+            return _categoryDal.GetAll();
         }
 
         public Category GetById(int categoryId)
