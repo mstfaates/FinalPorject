@@ -14,6 +14,7 @@ using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Transaction;
 using Core.Utilities.Business;
 using Microsoft.EntityFrameworkCore.Internal;
+using Core.Aspects.Autofac.Performance;
 
 namespace Business.Concrete
 {
